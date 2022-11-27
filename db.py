@@ -7,7 +7,6 @@ class CreateMenu:
         '''Конструктор класса. Определяет файл базы данных'''
         self.__db_path = os.getcwd()
         self.db_name = os.path.join(self.__db_path, 'database.db')
-        print(self.db_name )
 
 
     def __connect(self):
